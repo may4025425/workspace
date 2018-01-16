@@ -1,0 +1,11 @@
+package edu.fju.exam;
+
+public class Director extends Manager {
+
+	public Director(String string, int amount,int amount2) {
+		super(string, amount);
+		String s1 = "Teddy";
+		String s2 = "Frank";
+	}
+	
+}

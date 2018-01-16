@@ -1,0 +1,13 @@
+package edu.fju.exam;
+
+public class Employee {
+	
+	public Employee(String string, int amount) {
+		
+	}
+	
+	public void print() {
+		int total = (int)(amount*(1-discount));
+		System.out.println(amount +"\t"+total );
+	}
+}

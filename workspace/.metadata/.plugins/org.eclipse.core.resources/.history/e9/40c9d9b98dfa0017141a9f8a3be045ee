@@ -1,0 +1,14 @@
+package edu.fju.exam;
+
+public class Manager extends Employee{
+
+	public Manager(String string, int amount) {
+		super(string, amount);
+	}
+	@Override
+	public void print() {
+		int bonus = 5000;
+		System.out.println(amount +"\t"+ 5000 + "\t"+bonus);
+	}
+	
+}
